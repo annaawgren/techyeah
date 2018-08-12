@@ -1,18 +1,22 @@
-.header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 10vh;
-}
-
-.logo-menu {
+.logo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 2vw 2vw 0 0;
 }
 
-.grandma {
+.logo h1 {
   font-family: "mad-sans-black.woff";
-  font-size: 10vh;
+  font-size: 9vw;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: flex-end;
+  padding-top: 2vh;
+}
+
+.menu h3 {
+  font-size: 1vw;
+  margin-right: 20px
 }

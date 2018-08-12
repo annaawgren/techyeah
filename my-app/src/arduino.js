@@ -1,9 +1,37 @@
 import React, {Component} from 'react'
+import inView from "in-view"
 
 import TestBg from "./images/testbg5.jpg"
 
 
 class Arduino extends Component {
+
+
+  componentDidMount() {
+
+      const scrollLinks = document.querySelectorAll('.js-scroll')
+
+      scrollLinks.forEach(link => {
+        link.addEventListener('click', (event) => {
+          event.preventDefault()
+          const href = link.getAttribute('href')
+          document.querySelector(href).scrollIntoView({behavior: 'smooth'})
+        })
+      })
+
+      inView('.container').on('enter', container => {
+        container.classList.add('in-viewport')
+      }).on('exit', container => {
+        container.classList.remove('in-viewport')
+      })
+
+      inView.threshold(0.5);
+    }
+
+
+
+
+
   render() {
     return (<div className="arduino">
 

@@ -26,3 +26,14 @@
   font-size: 1.7vw;
   line-height: 1.5;
 }
+
+@media (min-width: 640px) {
+  .container {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  .in-viewport {
+    opacity: 1;
+  }
+}

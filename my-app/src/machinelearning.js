@@ -11,7 +11,7 @@ class Machinelearning extends Component {
         </video>
       </div>
 
-      <div className="container section-pad">
+      <div className="container-ml section-pad">
 
         <div>
           <h1 className="day-headline">one-day-lab with machine learning</h1>

@@ -2,6 +2,9 @@ import React, {Component} from 'react'
 
 
 class Labinfo extends Component {
+
+
+
   render() {
     return (<div className="labinfo-container">
 
@@ -9,22 +12,20 @@ class Labinfo extends Component {
         <div className="labinfo-row">
           <h2 className="labinfo place border-right">Malmö</h2>
           <h2 className="labinfo date border-right">181120</h2>
-          <h2 className="labinfo">Wearables – where analogue meets digital (Arduino)</h2>
-          <a href="#arduino" className="apply">
+          <h2 className="labinfo">Interactive wearables – where analogue meets digital (Arduino)</h2>
+          <a href="#arduino" className="apply js-scroll">
             <h2>Apply</h2>
           </a>
         </div>
 
         <div className="labinfo-row border-top">
-          <a href="#machinelearning" className="apply border-right">
+          <a href="#machinelearning" className="apply border-right js-scroll">
             <h2>Apply</h2>
           </a>
-          <h2 className="labinfo">Play with your body – teach the machine (Machine learning)</h2>
+          <h2 className="labinfo">Play with your body – teach your machine (Machine learning)</h2>
           <h2 className="labinfo date border-right">181120</h2>
           <h2 className="labinfo place">Sthlm</h2>
         </div>
-
-
 
 
       </div>)

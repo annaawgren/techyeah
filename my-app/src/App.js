@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import inView from "in-view"
+import Typing from 'react-typing-animation'
 
 import Header from "./header.js"
 import Labinfo from "./labinfo.js"
@@ -26,12 +27,10 @@ import Arrow from "./images/down-arrow.svg"
 class App extends Component {
 
 
-
-
   render() {
     return (<div className="App">
 
-      <section className="section section-pad section-top">
+      <section className="section section-pad">
         <Header />
         <Labinfo />
         <Hero />

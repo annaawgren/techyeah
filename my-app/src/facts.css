@@ -1,9 +1,61 @@
 .facts-container {
-  display: flex;
   position: relative;
 }
 
+@keyframes infoboxmoves {
+  0% {
+    transform: rotate(0deg);
 
-.info-box {
-  
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.info-box:hover {
+  z-index: 10;
+  animation: infoboxmoves 1s ease;
+}
+
+.info-box .inplace {
+  position: absolute;
+  width: 30vw;
+  height: 40vh;
+}
+
+.box1 {
+  top: 200px;
+  left: 20px;
+  background-color: yellow;
+}
+
+.box2 {
+  top: 250px;
+  left: 40px;
+  background-color: green;
+}
+
+.box3 {
+  top: 300px;
+  left: 60px;
+  background-color: white;
+}
+
+.box4 {
+  top: 350px;
+  left: 80px;
+  background-color: #fab;
+}
+
+.box5 {
+  top: 400px;
+  left: 100px;
+  background-color: red;
+}
+
+.infront {
+  z-index: 11;
 }
