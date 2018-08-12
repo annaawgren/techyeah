@@ -1,0 +1,21 @@
+.explainer {
+  position: absolute;
+  top: 50vh;
+  left: 10vh;
+  width: 40vw;
+}
+
+.explainer p {
+  font-size: 10vw;
+  line-height: 1;
+}
+
+.illis {
+  text-align: right;
+  padding-right: 2vw;
+}
+
+.illis img {
+  width: 30vw;
+
+}

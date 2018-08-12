@@ -1,0 +1,28 @@
+.arduino {
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: 10vh;
+  right: 2vw;
+  width: 50%;
+}
+
+.lab-headline {
+  font-size: 5vw;
+  line-height: 1;
+  margin-bottom: 25px;
+}
+
+.day-headline {
+  font-family: "mad-sans-black.woff";
+  font-size: 2vw;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.lab-explainer p {
+  font-size: 1.7vw;
+  line-height: 1.5;
+}

@@ -1,0 +1,44 @@
+.labinfo-container {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px black;
+  margin: 5vh 0;
+  margin-top:100px;
+}
+
+.labinfo-row {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+}
+
+.labinfo {
+  padding: 2vh 2vw;
+  width: 90vw;
+}
+
+.place,
+.date {
+  width: 8%;
+}
+
+.border-right {
+  border-right: solid 2px black;
+}
+
+.border-top {
+  border-top: solid 2px black;
+}
+
+.apply {
+  text-align: center;
+  padding: 0 2vw;
+  height: 100%;
+
+}
+
+.apply:hover {
+  background-color: red;
+}

@@ -1,0 +1,19 @@
+.section {
+  width: 100%;
+  background-color: #F7DAD9;
+  margin: 0;
+}
+
+.section-pad {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  position: relative;
+}
+
+.section-top {
+  height: 110vh;
+}
+
+.section-facts {
+  height: 100vh;
+}
