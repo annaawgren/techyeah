@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import Typing from 'react-typing-animation'
 
 
 class Header extends Component {
@@ -18,7 +19,14 @@ class Header extends Component {
 
 
         <div className="logo">
-          <h1>NEWBIE TECH EXPLORATION LAB</h1>
+          <h1>NEWBIE TECH </h1>
+
+          <Typing speed={100}>
+            <span>
+              <h1>EXPLORATION LAB</h1></span>
+          </Typing>
+
+
         </div>
 
 

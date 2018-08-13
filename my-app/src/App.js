@@ -8,6 +8,9 @@ import Hero from "./hero.js"
 import Arduino from "./arduino.js"
 import Machinelearning from './machinelearning.js'
 import Facts from './facts.js'
+import Footer from './footer.js'
+import About from './about.js'
+import Signup from './signup.js'
 
 
 import './App.css'
@@ -17,6 +20,9 @@ import './hero.css'
 import './arduino.css'
 import './machinelearning.css'
 import './facts.css'
+import './footer.css'
+import './about.css'
+import './signup.css'
 
 import Arrow from "./images/down-arrow.svg"
 
@@ -50,12 +56,16 @@ class App extends Component {
         <Facts />
       </section>
 
-      <section className="section section-pad">
-        <div>
-          <h2>About us</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
+      <section className="section section-pad signup">
+        <Signup />
+      </section>
 
+      <section className="section section-pad">
+        <About />
+      </section>
+
+      <section className="section-pad footer">
+        <Footer />
       </section>
 
     </div>)

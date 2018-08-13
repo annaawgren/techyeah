@@ -20,7 +20,7 @@
   animation: infoboxmoves 1s ease;
 }
 
-.info-box .inplace {
+.info-box {
   position: absolute;
   width: 30vw;
   height: 40vh;
@@ -46,16 +46,12 @@
 
 .box4 {
   top: 350px;
-  left: 80px;
+  left: 500px;
   background-color: #fab;
 }
 
 .box5 {
-  top: 400px;
-  left: 100px;
+  top: 500px;
+  left: 200px;
   background-color: red;
-}
-
-.infront {
-  z-index: 11;
 }

@@ -18,6 +18,11 @@
   src: url("/mad-sans-black.woff") format("woff");
 }
 
+@font-face {
+  font-family: "FrontageCondensed-3D.woff";
+  src: url("/FrontageCondensed-3D.woff") format("woff");
+}
+
 
 body {
   margin: 0;

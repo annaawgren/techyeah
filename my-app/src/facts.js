@@ -4,34 +4,17 @@ import './facts.css'
 
 class Facts extends Component {
 
-  constructor(props) {
-    super(props)
-    this.state = {
-      factsInFront: false
-    }
-  }
-
-
-  handleInFrontClick = () => {
-    this.setState({
-      factsInFront: !this.state.factsInFronts
-    })
-  }
-
-
 
   render() {
     return (<div className="facts-container">
 
-      <div onClick={this.handleInFrontClick} className="info-box box1">
-        <div className={`info-box ${this.state.factsInFront
-              ? "infront"
-              : "inplacew"}`}>>
+      <h1>THings we're talking about right now</h1>
+
+      <div className="info-box box1">
           <h1>This is Arduino</h1>
           <p>Arduino is an open-source electronics platform based on easy-to-use hardware and software. Arduino boards can read inputs - light on a sensor, a finger on a button, or a Twitter message – and turn it into an output - activating a motor, turning on an LED, publishing something online. You can tell your board what to do by sending a set of instructions to the microcontroller on the board. To do so you use the Arduino programming language (based on Wiring), and the Arduino Software (IDE), based on Processing.
           </p>
           <a href="https://www.arduino.cc/en/Guide/Introduction" target="blank">Source: https://www.arduino.cc/en/Guide/Introduction</a>
-        </div>
       </div>
 
       <div className="info-box box2">

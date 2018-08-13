@@ -1,0 +1,13 @@
+.about {
+  height: 100vh;
+  background: green;
+}
+
+.team img {
+  width: 20vw;
+
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
