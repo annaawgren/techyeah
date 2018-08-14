@@ -5,3 +5,14 @@
   padding-top: 20vh;
 
 }
+
+.footer-bg img {
+  position: absolute;
+  width: 100%;
+
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}

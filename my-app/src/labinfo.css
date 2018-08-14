@@ -6,12 +6,14 @@
   color: #FF729F;
 }
 
+.labinfo-comp {
+  margin: 5vh 0;
+}
 
 .labinfo-container {
   display: flex;
   flex-direction: column;
   border: solid 2px black;
-  margin: 50px 0 80px;
 }
 
 .labinfo-row {
@@ -40,27 +42,21 @@
   align-self: flex-end;
 }
 
-.know-more h2 {
-  text-align: center;
-  padding: 0 2vw;
-  border-left: solid 2px black;
-}
-
-.apply:hover {
-  background-color: red;
-}
-
-
-.arrow {
-  width: 100px;
-  height: 30px;
-
-}
-
 .long-line,
 .short-line1,
 .short-line2 {
   width: 100px;
   height: 1px;
   background-color: #000;
+}
+
+.signup-button {
+  text-align: center;
+  width: 400px;
+  padding: 2vh 2vw;
+  align-self: right;
+  background: red;
+  border-left: solid 2px black;
+  border-right: solid 2px black;
+  border-bottom: solid 2px black;
 }

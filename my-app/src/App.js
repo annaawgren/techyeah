@@ -1,11 +1,10 @@
 import React, {Component} from 'react'
-import inView from "in-view"
-import Typing from 'react-typing-animation'
 
 import Header from "./header.js"
 import Labinfo from "./labinfo.js"
 import Hero from "./hero.js"
 import Arduino from "./arduino.js"
+import LiveInterFace from './interface.js'
 import Machinelearning from './machinelearning.js'
 import Facts from './facts.js'
 import Footer from './footer.js'
@@ -23,8 +22,8 @@ import './facts.css'
 import './footer.css'
 import './about.css'
 import './signup.css'
+import './colors.css'
 
-import Arrow from "./images/down-arrow.svg"
 
 
 
@@ -52,11 +51,15 @@ class App extends Component {
         <Machinelearning />
       </section>
 
+      <section className="section" id="arduino">
+        <LiveInterFace />
+      </section>
+
       <section className="section section-pad section-facts">
         <Facts />
       </section>
 
-      <section className="section section-pad signup">
+      <section className="section section-pad signup" id="signup">
         <Signup />
       </section>
 

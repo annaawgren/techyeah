@@ -10,8 +10,9 @@ class Header extends Component {
 
         <div className="menu">
           <h3>labs</h3>
-          <h3>facts</h3>
+          <h3>faq</h3>
           <h3>about</h3>
+          <h3>sign up</h3>
           <h3>contact</h3>
 
         </div>

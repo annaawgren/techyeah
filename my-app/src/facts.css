@@ -1,5 +1,10 @@
 .facts-container {
   position: relative;
+  padding-top: 8vh;
+}
+
+.info-box-container {
+  position: absolute;
 }
 
 @keyframes infoboxmoves {
@@ -21,37 +26,62 @@
 }
 
 .info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   position: absolute;
-  width: 30vw;
-  height: 40vh;
+  width: 450px;
+  padding: 30px;
+  border: solid 2px black;
+}
+
+.info-box h1 {
+  margin-bottom: 20px;
+  font-size: 2vw;
+}
+
+.info-box p,
+.info-box a {
+  padding: 20px 0;
+  border-top: solid 2px black;
 }
 
 .box1 {
-  top: 200px;
-  left: 20px;
-  background-color: yellow;
+  top: 10vh;
+  left: 0;
+  background-color: #faffd8;
 }
 
 .box2 {
-  top: 250px;
-  left: 40px;
-  background-color: green;
+  top: 18vh;
+  left: 10vw;
+  background-color: #69e0c2;
 }
 
 .box3 {
-  top: 300px;
-  left: 60px;
+  top: 26vh;
+  left: 20vw;
   background-color: white;
 }
 
 .box4 {
-  top: 350px;
-  left: 500px;
+  top: 34vh;
+  left: 30vw;
   background-color: #fab;
 }
 
+
 .box5 {
-  top: 500px;
-  left: 200px;
-  background-color: red;
+  top: 42vh;
+  left: 40vw;
+  background-color: #69e0c2;
+}
+
+.facts-hl h1 {
+  font-size: 5vw;
+  font-family: "mad-sans-black.woff";
+}
+
+.facts-hl p {
+  font-size: 1.5vw;
 }

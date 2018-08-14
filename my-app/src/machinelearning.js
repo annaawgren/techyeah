@@ -13,8 +13,8 @@ class Machinelearning extends Component {
 
       <div className="container-ml section-pad">
 
-        <div>
-          <h1 className="day-headline">one-day-lab with machine learning</h1>
+        <div className="day-headline">
+          <h1>one-day-lab with machine learning</h1>
         </div>
 
         <div>
@@ -38,6 +38,12 @@ class Machinelearning extends Component {
             What you get: Breakfast, lunch and some nice goodies
 
           </p>
+        </div>
+
+        <div className="signup-button-small">
+          <a href="#signup" className="js-scroll">
+            <h2>Sign up >>> </h2>
+          </a>
         </div>
 
       </div>

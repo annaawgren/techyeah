@@ -1,6 +1,6 @@
 .section {
   width: 100%;
-  background-color: #F7DAD9;
+  /* background-color: #F7DAD9; */
   margin: 0;
 }
 
@@ -15,5 +15,5 @@
 }
 
 .section-facts {
-  height: 100vh;
+  height: 120vh;
 }

@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
-import Typing from 'react-typing-animation'
 
-import Test from "./images/test.png"
+
 
 class Hero extends Component {
 
@@ -10,13 +9,13 @@ class Hero extends Component {
 
 
       <div className="explainer">
-        <p>ladjglajsfdlk<br/>
-          aöhtöoawhrgö</p>
+        <p>We want to make <br /> learning new<br/>
+           technologies <br /> accessible and fun</p>
       </div>
 
 
       <div className="illis">
-        <img src={Test}></img>
+        {/* <img src={Test}></img> */}
       </div>
 
 

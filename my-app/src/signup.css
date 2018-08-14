@@ -1,3 +1,38 @@
 .signup {
   height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: white;
+}
+
+.signup-form {
+  padding-top: 10vh;
+}
+
+.signup-field {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 20px 0 5px;
+}
+
+.signup-box {
+  border-bottom: solid 2px black;
+  width: 30vw;
+  height: 5vh;
+}
+
+input {
+  background: none;
+  border: none;
+  outline: none;
+  width: 30vw;
+}
+
+input::placeholder {
+  font-family: "CircularStd-Bold.woff";
+  font-size: 3vw;
 }

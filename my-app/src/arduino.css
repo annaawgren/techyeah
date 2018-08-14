@@ -10,30 +10,41 @@
 }
 
 .lab-headline {
-  font-size: 5vw;
+  font-size: 4vw;
   line-height: 1;
   margin-bottom: 25px;
 }
 
-.day-headline {
+.day-headline h1 {
+  display: inline-block;
+  background: white;
+  width: auto;
   font-family: "mad-sans-black.woff";
-  font-size: 2vw;
+  font-size: 1.5vw;
   line-height: 1;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  padding: 2px 5px;
 }
 
 .lab-explainer p {
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   line-height: 1.5;
 }
 
-@media (min-width: 640px) {
-  .container {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-  }
+.signup-button-small {
+  width: 200px;
+  padding: 5px 10px;
+  margin-top: 50px;
+  background: #fff;
+  align-self: flex-end;
+  position: absolute;
+  right: 8vw;
+}
 
-  .in-viewport {
-    opacity: 1;
-  }
+.signup-button-small h2 {
+  font-family: "mad-sans-black.woff";
+}
+
+.signup-button-small:hover {
+  background: pink;
 }

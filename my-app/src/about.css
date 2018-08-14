@@ -1,11 +1,17 @@
 .about {
-  height: 100vh;
-  background: green;
+  height: 80vh;
+}
+
+.about-us {
+  width: 30vw;
+  padding: 20px;
 }
 
 .team img {
+  position: absolute;
+  right: 10vw;
+  bottom: 10vh;
   width: 20vw;
-
 
   background-repeat: no-repeat;
   background-position: center;
