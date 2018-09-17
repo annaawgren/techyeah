@@ -1,18 +1,18 @@
 .hero {
   display: flex;
-  flex-direction: row;
+  flex-direction: row wrap;
   height: 100vh;
   width: 100vw;
   justify-content: space-between;
   position: relative;
 }
 
-.explainer {
+/* .explainer {
   position: absolute;
   top: 30vh;
   left: 13vw;
   z-index: 10;
-}
+} */
 
 .explainer p {
   font-size: 4vw;

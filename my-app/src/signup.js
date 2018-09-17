@@ -12,7 +12,7 @@ class Signup extends React.Component {
 
         <div className="facts-hl">
           <h1>Sign up!</h1>
-          <p>We are working on all the when, where and what's for our labs.</p>
+          <p>Want to know more? We are working on all the when, where and what's for our labs.</p>
             <p>Be the first to know when all details are up and applications are open.  </p>
         </div>
 
@@ -42,7 +42,7 @@ class Signup extends React.Component {
               <div id="mce-responses" className="clear">
                 <div
                   className="response"
-                  id="mce-error-response"
+                  id="mce-error-response"s
                   xstyle="display:none"
                 />
                 <div

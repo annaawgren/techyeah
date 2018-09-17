@@ -32,7 +32,7 @@ class Arduino extends Component {
           </p>
             <br />
             <br />
-          <p>
+          {/* <p>
             Stockholm, October 2018
             <br />
             Location: To be announced
@@ -40,7 +40,7 @@ class Arduino extends Component {
             Price: 1000 SEK
             <br />
             What you get: Arduino starter kit, accessories, breakfast and lunch
-          </p>
+          </p> */}
         </div>
 
         <div className="signup-button-small">
